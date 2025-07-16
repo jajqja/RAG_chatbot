@@ -1,0 +1,35 @@
+RAG là gì?
+Các mô hình ngôn ngữ lớn (LLM) như chatbot có thể dịch nhanh ngôn ngữ, trả lời câu hỏi của khách hàng bằng phản hồi giống con người và thậm chí còn có thể tạo mã. Tuy nhiên, các LLM chỉ quen thuộc với thông tin chúng đã gặp được trong quá trình đào tạo. Để truy xuất hiệu quả các lĩnh vực kiến thức chuyên ngành và đang phát triển không ngừng—chẳng hạn như kiến thức chuyên sâu về doanh nghiệp và khách hàng của bạn—các LLM cần tiếp xúc với dữ liệu mới nhất. Mặc dù bạn có thể chọn đào tạo lại hoặc tinh chỉnh, nhưng quá trình này có thể đòi hỏi phải tiêu tốn thêm thời gian và chi phí. Ngay cả khi đó, LLM vẫn có thể tạo ra phản hồi không chính xác.
+
+RAG, một khung AI ngày càng phổ biến, giúp các LLM cung cấp phản hồi AI chính xác và phù hợp hơn. RAG bổ sung cho LLM dữ liệu từ cơ sở kiến thức bên ngoài, đảm bảo các LLM có thể truy cập thông tin đáng tin cậy và mới nhất. Dữ liệu bổ sung này giúp các LLM cung cấp các phản hồi được cập nhật và có ý nghĩa theo bối cảnh.
+
+Trong môi trường doanh nghiệp, RAG cung cấp cho các tổ chức cách tiếp cận AI tạo sinh tiết kiệm chi phí. LLM có sẵn trên thị trường, được gọi là LLM nền tảng, được đào tạo để phản hồi nhiều chủ đề đa dạng. Tuy nhiên, chúng thường cần được tùy chỉnh theo dữ liệu của tổ chức trước khi có thể tạo ra kết quả dành riêng cho doanh nghiệp. RAG cho phép các tổ chức đưa dữ liệu của riêng họ vào các LLM mà không cần đào tạo lại hoặc tinh chỉnh, giảm rào cản truy cập đối với các trường hợp sử dụng cụ thể, hữu hình.
+
+Ví dụ: Tổ chức của bạn có thể cung cấp cho nhân viên quyền truy cập vào chatbot do RAG hỗ trợ để giúp tăng năng suất. Để giúp lập kế hoạch cho kỳ nghỉ của mình, bạn có thể hỏi chatbot xem bạn có bao nhiêu ngày nghỉ trong phần còn lại của năm. Chatbot sẽ tìm kiếm cơ sở dữ liệu nội bộ để tìm thông tin liên quan, truy xuất chính sách kỳ nghỉ của công ty bạn và bạn đã sử dụng bao nhiêu ngày nghỉ để đưa ra số ngày bạn có thể yêu cầu nghỉ việc.
+
+Một LLM nền tảng chưa được đào tạo về hồ sơ của tổ chức bạn không thể cung cấp câu trả lời—hoặc tệ hơn là có thể tự tin cung cấp câu trả lời sai. Để trang bị cho mô hình nền tảng để trả lời câu hỏi một cách hiệu quả, bạn cần tinh chỉnh mô hình theo dữ liệu của công ty bạn mỗi khi ai đó có một ngày nghỉ.
+
+RAG mang lại những lợi ích gì?
+Việc tích hợp RAG vào các ứng dụng AI tạo sinh có nhiều lợi ích.
+Giải pháp tiết kiệm chi phí để thay thế cho tinh chỉnh: Trong nhiều trường hợp, RAG có thể cho phép các tổ chức tùy chỉnh LLM theo tên miền và dữ liệu của riêng họ với thời gian và chi phí chỉ bằng một phần nhỏ của việc đào tạo lại hoặc tinh chỉnh các mô hình. Điều này tạo ra một lộ trình ngắn hơn để đến các mô hình AI tạo sinh có thể mang lại kết quả AI có liên quan và có ý nghĩa cho nhân viên và khách hàng.
+Kết quả đáng tin cậy hơn: Các chuyên gia ước tính rằng các LLM phổ biến nhất thế giới tạo ra đầu ra không chính xác, hoặc “ảo giác”, từ 2 đến 22% thời gian.1 Bằng cách cung cấp cho các LLM bối cảnh bổ sung từ các nguồn kiến thức đáng tin cậy, RAG giúp cải thiện độ chính xác của LLM và giảm ảo giác. RAG cũng có thể cung cấp trích dẫn nguồn để người dùng có thể kiểm tra câu trả lời và chủ đề nghiên cứu sâu hơn.
+Thông tin chuyên sâu được cập nhật từng phút: Sử dụng RAG, các doanh nghiệp có thể liên tục đưa dữ liệu mới vào các mô hình, đảm bảo các LLM luôn cập nhật các chủ đề thay đổi nhanh chóng. Các mô hình do RAG hỗ trợ thậm chí có thể kết nối trực tiếp với các nguồn như trang web và nguồn cấp dữ liệu mạng xã hội để tạo ra câu trả lời với thông tin gần với thời gian thực.
+Cải thiện quyền riêng tư dữ liệu: Vì các cơ sở kiến thức bên ngoài có thể được lưu trữ cục bộ hoặc trong các trung tâm dữ liệu riêng tư, RAG không yêu cầu các tổ chức chia sẻ dữ liệu bí mật với các LLM của bên thứ ba. Các tổ chức có thể tùy chỉnh và triển khai các mô hình trong khi vẫn giữ an toàn cho dữ liệu của họ.
+RAG hoạt động như thế nào?
+Một LLM truyền thống được đào tạo về lượng dữ liệu khổng lồ từ internet, bao gồm các bài viết, bảng ghi video và diễn đàn trò chuyện. Một hệ thống RAG bổ sung thêm cơ chế truy xuất tham chiếu chéo thông tin từ cơ sở kiến thức được xây dựng tùy chỉnh trước khi trả lời một lời nhắc. Thông tin bổ sung này củng cố việc đào tạo của LLM, dẫn đến câu trả lời phù hợp hơn với nhu cầu của người dùng hoặc tổ chức.
+
+Bước đầu tiên để tạo ra giải pháp LLM do RAG hỗ trợ là xây dựng nền tảng kiến thức. Bộ sưu tập dữ liệu riêng này có thể bao gồm nhiều nguồn dựa trên văn bản, chẳng hạn như sổ tay công ty và tóm lược về sản phẩm. Bạn sẽ cần thực hiện một số công việc chuẩn bị để dữ liệu của bạn được xử lý hiệu quả, bao gồm dọn dẹp dữ liệu, chẳng hạn như xóa thông tin trùng lặp và chia dữ liệu thành các khối có thể quản lý được. Sau đó, một mô hình AI chuyên dụng được gọi là mô hình nhúng sẽ chuyển đổi dữ liệu của bạn thành dạng vector—các biểu diễn toán học của văn bản—nắm bắt bối cảnh và mối quan hệ giữa các từ. Vector được lưu trữ trong cơ sở dữ liệu vector để có thể truy xuất nhanh.
+
+Khi người dùng hoặc hệ thống con gửi truy vấn, truy vấn sẽ đi qua thành phần cốt lõi của quy trình công việc, cơ chế truy xuất. Cơ chế này tìm kiếm những kết quả trùng khớp có liên quan trong cơ sở dữ liệu vector và chia sẻ dữ liệu liên quan nhất với LLM dưới dạng bối cảnh bổ sung.
+
+LLM sau đó kết hợp chương trình đào tạo của mình với dữ liệu bên ngoài để tạo ra phản hồi cuối cùng, đảm bảo người dùng nhận được câu trả lời chính xác và có ý nghĩa theo bối cảnh.
+
+Tìm hiểu kỹ hơn về các bước này bằng cách đọc bài viết của chúng tôi về cách triển khai RAG.
+
+Mọi người đang sử dụng RAG như thế nào?
+Các tổ chức trong các ngành công nghiệp đang sử dụng RAG để thúc đẩy năng suất của nhân viên, mang lại trải nghiệm cá nhân hóa và giảm chi phí hoạt động.
+
+Dưới đây là một vài ví dụ về cách RAG đang chuyển đổi các ngành công nghiệp.
+Trải nghiệm mua sắm được cá nhân hóa: Các hệ thống đề xuất bán lẻ do RAG hỗ trợ có thể thu thập tùy chọn của khách hàng và xu hướng thị trường theo thời gian thực từ các nguồn như công cụ tìm kiếm và X (trước đây là Twitter). Điều này cho phép các nhà bán lẻ cung cấp các đề xuất sản phẩm được cá nhân hóa, cập nhật từng phút cho mỗi người mua sắm. Đọc thêm.
+Bảo trì sản xuất dự đoán: Bằng cách khai thác dữ liệu hiệu năng trước đây, dữ liệu cụ thể về thiết bị và dữ liệu cảm biến trực tiếp, các hệ thống phát hiện bất thường do RAG hỗ trợ có thể phát hiện sự bất thường ở thiết bị với những dấu hiệu có thể xảy ra vấn đề sớm nhất, cho phép các nhà sản xuất giải quyết các vấn đề tiềm ẩn trước khi chúng dẫn đến ngừng hoạt động. Kiến thức chuyên sâu về máy móc phức tạp cho phép các hệ thống RAG phát hiện những thay đổi tinh tế về tốc độ và độ chính xác của thiết bị thường bị các hệ thống truyền thống bỏ qua. Đọc thêm.
+Trợ lý AI về dịch vụ tài chính: Các chatbot do RAG hỗ trợ có thể tổng hợp một trang web phức tạp về xu hướng và quy định thị trường trong thời gian thực và cung cấp cho người dùng lời khuyên tài chính kịp thời, tùy chỉnh và có thể thực hiện. Những trợ lý AI mạnh mẽ này giúp các công ty tài chính cung cấp lời khuyên tùy chỉnh trên cơ sở khách hàng lớn đồng thời tuân thủ các quy định không ngừng phát triển. Đọc thêm.

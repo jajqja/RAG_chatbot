@@ -1,0 +1,43 @@
+Cơ bản về Big Data
+
+1) Big Data là gì?
+
+Big Data là thuật ngữ dùng để chỉ một tập hợp dữ liệu rất lớn và/hoặc rất phức tạp đến nỗi những công cụ, kỹ thuật xử lý dữ liệu truyền thống không thể nào đảm đương được.
+
+Vào năm 2001, nhà phân tích Doug Laney của hãng META Group (bây giờ chính là công ty nghiên cứu Gartner) đã nói rằng những thách thức và cơ hội nằm trong việc tăng trưởng dữ liệu có thể được mô tả bằng ba chiều “3V”: tăng về số lượng lưu trữ (volume), tăng về tốc độ xử lý (velocity) và tăng về chủng loại (variety). Giờ đây, Gartner cùng với nhiều công ty và tổ chức khác trong lĩnh vực công nghệ thông tin tiếp tục sử dụng mô hình “3V” này để định nghĩa nên Big Data. Đến năm 2012, Gartner bổ sung thêm rằng Big Data ngoài ba tính chất trên thì còn phải “cần đến các dạng xử lí mới để giúp đỡ việc đưa ra quyết định, khám phá sâu vào sự vật/sự việc và tối ưu hóa các quy trình làm việc”.
+
+Sau đây là khái niệm mới về Big Data 2014 của Gartner về mô hình “5Vs” – năm tính chất quan trọng nói lên Big Data:
+
+Volume (Số lượng lưu trữ)
+
+Big Data (“dữ liệu lớn”) là tập hợp dữ liệu có dung lượng lưu trữ vượt mức đảm đương của những ứng dụng và công cụ truyền thống. Kích cỡ của Big Data đang từng ngày tăng lên, và tính đến năm 2012 thì nó có thể nằm trong khoảng vài chục terabyte cho đến nhiều petabyte (1 petabyte = 1024 terabyte) chỉ cho một tập hợp dữ liệu mà thôi.
+
+Velocity (Tốc độ xử lý)
+
+Dung lượng gia tăng của dữ liệu rất nhanh và tốc độ xử lý đang tiến tới real-time. Các ứng dụng phổ biến trên lĩnh vực Internet, Tài chính, Ngân hàng, Hàng không, Quân sự, Y tế – Sức khỏe ngày hôm nay phần lớn dữ liệu lớn đc xử lý real-time. Công nghệ xử lý dữ liệu lớn ngày một tiên tiến cho phép chúng ta xử lý tức thì trước khi chúng được lưu trữ vào cơ sở dữ liệu.
+
+Variety (Đa dạng chủng loại)
+
+Hình thức lưu trữ và chủng loại dữ liệu ngày một đa dạng hơn. Trước đây chúng ta hay nói đến dữ liệu có cấu trúc thì ngày nay hơn 80% dữ liệu trên thế giới được sinh ra là phi cấu trúc (tài liệu, blog, hình ảnh, video, voice v.v.). Công nghệ Big Data cho phép chúng ta ngày nay liên kết và phân tích đa dạng chủng loại dữ liệu với nhau như comments/post của một nhóm người dùng nào đó trên Facebook với thông tin video được chia sẻ từ Youtube và Twitter.
+
+Veracity (Độ chính xác)
+
+Một trong những tính chất phức tạp nhất của BigData là độ chính xác của dữ liệu. Với xu hướng Social Media và Social Network ngày nay và sự gia tăng mạnh mẽ tính tương tác và chia sẻ của người dùng Mobile làm cho bức tranh xác định về độ tin cậy & chính xác của dữ liệu ngày một khó khăn hơn. Bài toán phân tích và loại bỏ dữ liệu thiếu chính xác và nhiễu đang là tính chất quan trọng của BigData.
+
+Value (Giá trị thông tin)
+
+Giá trị thông tin là tính chất quan trọng nhất của xu hướng công nghệ Big Data. Ở đây doanh nghiệp phải hoạch định được những giá trị thông tin hữu ích của BigData cho vấn đề, bài toán hoặc mô hình hoạt động kinh doanh của mình. Có thể nói việc đầu tiên là phải xác định được tính chất “Value” thì mới nên bắt tay vào BigData.
+
+Đến đây, chắc nhiều bạn sẽ có câu hỏi là “Vậy dữ liệu lớn đến cỡ nào thì được coi là Big Data?”. Câu trả lời là tuỳ vào dữ liệu của bạn. Có những dữ liệu kích thước nhỏ nhưng mà lại là “lớn", và cũng có những dữ liệu kích thước lớn mà lại là “nhỏ". Ví dụ, hệ thống của bạn hoạt động trong vòng 10 năm và tạo ra các file log, các file này đơn thuần là các file text ghi lại các thao tác của người dùng chẳng hạn. Tổng dung lượng của các file text có thể chỉ là 100GB (kích thước nhỏ) nhưng nó lại là “lớn" để tiến hành phân tích, do đó có thể coi đó là một ngưồn Big Data. Ngược lại bạn có thể có 1000 file video, mỗi file kích thước khoảng 20GB, tổng cộng bạn có khoảng 20TB dữ liệu (kích thước lớn), nhưng nó lại là nhỏ khi tiến hành phân tích và không phải là Big Data.
+
+2) Tại sao cần đến Big Data?
+
+Big Data làm được gì hay Tại sao lại cần đến Big Data chắc chắn là một câu hỏi được nhiều người quan tâm. Tập đoàn SAS có nêu lên rằng vấn đề của Big Data thật sự không nằm ở việc bạn thu thập dữ liệu như thế nào, mà thay vào đó, là bạn dùng Big Data để làm gì. Nhìn chung, có bốn lợi ích mà Big Data có thể mang lại đó là: cắt giảm chi phí, giảm thời gian, tăng thời gian phát triển và tối ưu hóa sản phẩm, đồng thời hỗ trợ con người đưa ra những quyết định đúng và hợp lý hơn.
+
+Một ví dụ cụ thể: nếu để ý một chút, bạn sẽ thấy khi mua sắm online trên eBay, Amazon hoặc những trang tương tự, trang này cũng sẽ đưa ra những sản phẩm gợi ý tiếp theo cho bạn, ví dụ khi xem điện thoại, nó sẽ gợi ý cho bạn mua thêm ốp lưng, pin dự phòng; hoặc khi mua áo thun thì sẽ có thêm gợi ý quần jean, dây nịt… Do đó, việc nghiên cứu được sở thích, thói quen của khách hàng cũng gián tiếp giúp doanh nghiệp bán được nhiều hàng hóa hơn.
+
+Vậy những thông tin về thói quen, sở thích này có được từ đâu? Chính là từ lượng dữ liệu khổng lồ mà các doanh nghiệp thu thập trong lúc khách hàng ghé thăm và tương tác với trang web của mình. Chỉ cần doanh nghiệp biết khai thác một cách có hiệu quả Big Data thì nó không chỉ giúp tăng lợi nhuận cho chính họ mà còn tăng trải nghiệm mua sắm của người dùng, chúng ta có thể tiết kiệm thời gian hơn nhờ những lời gợi ý so với việc phải tự mình tìm kiếm.
+
+Xa hơi một chút, ứng dụng được Big Data có thể giúp các tổ chức, chính phủ dự đoán được tỉ lệ thất nghiệp, xu hướng nghề nghiệp của tương lai để đầu tư cho những hạng mục đó, hoặc cắt giảm chi tiêu, kích thích tăng trưởng kinh tế, v/v… thậm chí là ra phương án phòng ngừa trước một dịch bệnh nào đó, giống như trong phim World War Z, nước Israel đã biết trước có dịch zombie nên đã nhanh chóng xây tường thành ngăn cách với thế giới bên ngoài.
+
+Mà cũng không cần nói đến tương lai phim ảnh gì cả, vào năm 2009, Google đã sử dụng dữ liệu Big Data của mình để phân tích và dự đoán xu hướng ảnh hưởng, lan truyền của dịch cúm H1N1 đấy thôi. Dịch vụ này có tên là Google Flu Trends. Xu hướng mà Google rút ra từ những từ khóa tìm kiếm liên quan đến dịch H1N1 đã được chứng minh là rất sát với kết quả do hai hệ thống cảnh báo cúm độc lập Sentinel GP và HealthStat đưa ra. Dữ liệu của Flu Trends được cập nhật gần như theo thời gian thực và sau đó sẽ được đối chiếu với số liệu từ những trung tâm dịch bệnh ở nhiều nơi trên thế giới.
