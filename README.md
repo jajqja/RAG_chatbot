@@ -36,6 +36,17 @@ Khi người dùng đặt câu hỏi, hệ thống sẽ:
 
 ## Cách triển khai
 
+Trước khi chạy cần:
+
+```bash
+export OPENAI_API_KEY="sk-..."
+export TAVILY_API_KEY="tvly-..."
+export QDRANT_URL = "https..."
+export QDRANT_API_KEY = "eyJh..."
+```
+
+Chạy giao diện:
+
 ```bash
 streamlit run app.py
 ```
