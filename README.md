@@ -30,7 +30,7 @@ Khi người dùng đặt câu hỏi, hệ thống sẽ:
   - Tạo ra câu trả lời cuối cùng dựa trên kết quả thu thập được từ các công cụ này.
 
 ## Điểm mạnh của hệ thống
-- Khả năng duy trì dữ liệu lâu dài: Các tài liệu và tóm tắt được lưu trữ dưới dạng vector (trong Qdrant) và file .json, đảm bảo không mất dữ liệu khi hệ thống khởi động lại.
+- Khả năng duy trì dữ liệu lâu dài: Các tài liệu được index dưới dạng vector (trong Qdrant) và tóm tắt được lưu trữ trong file .json, đảm bảo không mất dữ liệu khi hệ thống khởi động lại.
 - Linh hoạt mở rộng: Mỗi tài liệu được định nghĩa như một "tool", giúp hệ thống linh hoạt và dễ mở rộng.
 - Tối ưu trải nghiệm người dùng: Kết hợp nhiều công cụ thông minh giúp chatbot trả lời tốt hơn trong nhiều ngữ cảnh.
 
