@@ -8,12 +8,13 @@
 Phát triển một chatbot có khả năng:
   - Hiểu câu hỏi của người dùng.
   - Truy xuất thông tin từ các tài liệu đã được tải lên hệ thống.
-  - Tạo câu trả lời tự nhiên, chính xác nhờ vào sự kết hợp giữa LLM và vector database.
+  - Tạo câu trả lời tự nhiên, chính xác nhờ vào sự kết hợp giữa LLM, vector database và function calling.
 
 Ngoài việc truy vấn tài liệu, chatbot còn tích hợp các công cụ như:
   - Tóm tắt nội dung
   - Dịch văn bản
   - Tìm kiếm trên web
+  - 
 Những công cụ này được mô hình xem như các tools, giúp mở rộng phạm vi và chất lượng của câu trả lời.
 
 ## Kiến trúc & Hướng tiếp cận
