@@ -13,8 +13,8 @@ class Retriever:
         self.embeddings = OpenAIEmbeddings(openai_api_key= os.getenv("OPENAI_API_KEY"))
 
         self.client = QdrantClient(
-            url="https://025ca00e-a260-453e-89d3-5789a2e9d102.us-east4-0.gcp.cloud.qdrant.io:6333",
-            api_key="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.fHs4XmewmlEJ09WkweJ_Uvsf3eL_f4oxJmcI0CgtnZs"
+            url=os.getenv("QDRANT_URL"),
+            api_key=os.getenv("QDRANT_API_KEY")
         )
     
     def create_collection(self, collection_name, dim=1536):
